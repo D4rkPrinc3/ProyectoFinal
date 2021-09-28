@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Nunito:wght@300&family=WindSong:wght@500&display=swap" rel="stylesheet">
+
+    <title>Couchs ︳ Bien✰Estar</title>
+</head>
+<body>
+    <header>
+    <div class="container">
+        <div class="seccionTitulo">
+            <h1 class="tituloUno">Bien✰Estar</h1>
+            <h2 class="tituloDos">Salud Nutricional</h2>
+        </div>
+            <nav role="navigation">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/recetas.html">Recetas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contactanos</a>
+                    </li>
+                </ul>
+                </nav>
+
+    </header>
+<!-- 
+    <p>¿Sabés exactamente lo que querés lograr pero no sabés cómo? Los coach te vamos a ayudar a explorar, evaluar, valorar y ordenar nuevas opciones para elegir las mejores y construir un plan de acción, el más adecuado para vos, vamos a ir transitando ése camino a la par para alcanzar las metas deseadas. Contactanos.</p>
+-->
+    <!-- Imágenes de los couch junto a sus números de teléfono para contactarle , pensar en qué método agrgar los celulares-->
+<!-- números de los couchs: Claudia 2257 551500 ; Angel +54 9 2257 53-1205 -->
+
+
+<div>
+
+    <div class="container">
+        <div class="row">
+            <div>
+                <div>
+                    <img class="imagenClaudia" src="../image/Claudia.jpeg" alt="">
+                </div>
+                <div>
+                    <h3>Claudia</h3>
+                        <h4>+54 9 2257 55-1500</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div>
+            <img class="imagenAngel" src="../image/Angel.jpeg" alt="">
+        </div>
+        <div>
+            <h3>Angel</h3>
+                <h4>+54 9 2257 53-1205</h3>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+<form action="" method="POST">
+    <fieldset>
+        <legend>Información personal para la carga de datos</legend>
+    <div class="form-group">
+        <p>
+            <label for="nombre" id="nombre" name="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre" required>
+        </p>
+
+        <p>
+            <label for="apellido" id="apellido" name="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+        </p>
+        
+        <p>
+            <label for="email" id="email" name="email">Email:</label>
+            <input  type="email" id="email" name="email" placeholder="email@sitio.com" required>
+        </p>
+
+        <p>
+            <label for="telefono" id="telefono" name="telefono">Telefono: </label>
+            <input type="number" name="telefono" id="telefono">
+        </p>
+
+        <p>
+            <label for="edad" id="edad" name="edad">Edad: </label>
+            <input type="number" id="edad" name="edad">
+        </p>
+
+        <p>Género</p>
+        <p>
+            <input type="radio" name="mujer" id="mujer">
+            <label for="mujer" id="mujer" name="mujer">Mujer</label>
+        </p>
+
+        <p>
+            <input type="radio" name="hombre" id="hombre">
+            <label for="hombre" id="hombre" name="hombre">Hombre</label>
+        </p>
+
+        <p>
+            <input type="radio" name="no binario" id="no binario">
+            <label for="no binario" id="no binario" name="no binario">No binario</label>
+        </p>
+
+        <p>
+            <label for="pais" id="pais" name="pais"
+                <span>País</span>
+            </label>
+            <select name="pais" id="pais">
+                <option value="argentina">Argentina</option>
+                <option value="chile">Chile</option>
+                <option value="uruguay">Uruguay</option>
+                <option value="bolivia">Bolivia</option>
+                <option value="peru">Perú</option>
+                <option value="ecuador">Ecuador</option>
+                <option value="colombia">Colombia</option>
+                <option value="venezuela">Venezuela</option>
+                <option value="mexico">México</option>
+            </select>
+            <!-- Agregar más países -->
+        </p>
+    </div>
+        <p>
+            <input type="reset" value="Borrar Datos">
+        </p>
+        <p>
+            <input type="submit" value="Enviar Datos">
+        </p>
+    </fieldset>
+
+</form>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none; }
+
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+.seccionTitulo .tituloUno {
+  font-family: 'WindSong', cursive;
+  font-size: 350%;
+  display: flex;
+  justify-content: center; }
+
+.seccionTitulo .tituloDos {
+  font-family: 'Nunito', sans-serif;
+  font-size: 150%;
+  display: flex;
+  justify-content: center; }
+
+.imagenesCarousel {
+  width: 70%; }
+
+.seccionServicios {
+  display: grid;
+  grid-template-columns: 250px;
+  grid-template-rows: 250px;
+  display: flex;
+  flex-direction: row; }
+
+.deah {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 2fr 2fr;
+  display: flex;
+  flex-direction: row; }
+
+.imagenClaudia {
+  width: 200px; }
+
+.imagenAngel {
+  width: 250px; }
+
+.seccionDos {
+  display: flex;
+  flex-direction: row;
+  margin-left: 130px; }

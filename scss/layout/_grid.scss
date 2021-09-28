@@ -1,0 +1,17 @@
+.seccionServicios{
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: 250px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.deah{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    display: flex;
+    flex-direction: row;
+}
+
